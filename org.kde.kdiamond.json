@@ -1,7 +1,7 @@
 {
     "id": "org.kde.kdiamond",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.11",
+    "runtime-version": "5.12",
     "sdk": "org.kde.Sdk",
     "command": "kdiamond",
     "rename-icon": "kdiamond",
@@ -10,29 +10,28 @@
         "--socket=x11",
         "--socket=wayland",
         "--socket=pulseaudio",
-        "--device=dri",
-        "--filesystem=xdg-config/kdeglobals:ro"
+        "--device=dri"
     ],
     "modules": [
         {
             "name": "libkdegames",
             "buildsystem": "cmake-ninja",
-            "sources": [ 
-                { 
-                    "type": "archive", 
-                    "url": "https://download.kde.org/stable/applications/18.12.0/src/libkdegames-18.12.0.tar.xz",
-                    "sha256": "7b414075f135b93e1e332bbadf207f81c96c78d448b1f254d6015fc988052006"
-                } 
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/libkdegames-18.12.2.tar.xz",
+                    "sha256": "ec20e57eeeab9a8ee7737d0c7c8c5d6c84e060393d96a37372368d7f1a9e5843"
+                }
             ]
         },
         {
             "name": "kdiamond",
             "buildsystem": "cmake-ninja",
             "sources": [
-                { 
-                    "type": "archive", 
-                    "url": "https://download.kde.org/stable/applications/18.12.0/src/kdiamond-18.12.0.tar.xz",
-                    "sha256": "5a4ef12361e87ffe9e9499806f2fe7f9625aa8440157044b78947678d8d82130"
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/applications/18.12.2/src/kdiamond-18.12.2.tar.xz",
+                    "sha256": "e807dc186eccd270be703fce2839cb60a0d6a3c7fd51902810513b3f986c0abb"
                 }
             ]
         }
