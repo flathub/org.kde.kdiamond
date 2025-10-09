@@ -19,8 +19,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.1/src/libkdegames-25.08.1.tar.xz",
-                    "sha256": "542b2f951c5091c5157cc0f2f53bae61afc47b21115df7441695b82fa725e83a",
+                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/libkdegames-25.08.2.tar.xz",
+                    "sha256": "43f3cfdf82e46c0764ac779bfcbe3c78728ec9f880e71fcf587fb3c05195f4e7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -36,8 +36,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.1/src/kdiamond-25.08.1.tar.xz",
-                    "sha256": "27753062d8808e4697a27f4478edb7efe49d16e5fecb32c971ab9f28937485d6",
+                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/kdiamond-25.08.2.tar.xz",
+                    "sha256": "669a97c85b38dfee209aedb35843f5a220f0f333d1648a75e669bb8cbb1beded",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
